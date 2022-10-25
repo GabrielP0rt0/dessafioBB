@@ -1,12 +1,12 @@
 header{
     background-color: #fcfc30;
-    height: 50px;
+    height: 65px;
     padding: 8px 0;
 }  
 .LogoCabecalho{
-    height: 47px;
+    height: 58px;
     position: relative;
-    margin: 0 0 0 130px;
+    margin: 0 0 0 150px;
     display: inline-block;
     
 }
@@ -25,13 +25,17 @@ header ul li{
     padding: 0 5px 0 0;
     transition: 0.3s;
     color: #525dff;
-    font-size:16px;
+    font-size:20px;
     font-family: 'Roboto', sans-serif;
 }
 body {
     background: url(../img/Banner1.jpg);
     background-position: 50% 5%;
     background-repeat: no-repeat;
+    background-size: 140%;
+}
+.Banner{
+    height: 625px;
 }
 .Lista1 li{
 
@@ -44,6 +48,16 @@ body {
 .Lista1 li a:visited{
     color: white;
     text-decoration: none;
+}
+.Conta{
+    height: 800px;
+    width: 500px;
+}
+.Conta h1{
+    font-size: 100px;
+    color: #fcfc30;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* 
