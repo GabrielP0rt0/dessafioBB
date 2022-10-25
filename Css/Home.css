@@ -1,9 +1,29 @@
 header{
     background-color: #fcfc30;
+    height: 81px;
+    padding: 12px 0;
 }  
 .LogoCabecalho{
-    height: 63px;
-    padding: 7px;
+    height: 69px;
+    position: relative;
+    margin: 5px 0 6px 100px;
+    display: inline-block;
+    
+}
+header ul{
+    list-style: none;
+    position: relative;
+    margin-left: 77%;
+    margin-top: -50px;
+}
+header ul li{
+    display: inline-block;
+}
+.ItemCabecalho:hover{
+    padding: 0 10px 0 0;
+}
+.ItemCabecalho2:hover{
+    padding: 0px 0px 0px 10px;
 }
 /* 
 body{
