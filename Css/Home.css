@@ -1,30 +1,51 @@
 header{
     background-color: #fcfc30;
-    height: 81px;
-    padding: 12px 0;
+    height: 50px;
+    padding: 8px 0;
 }  
 .LogoCabecalho{
-    height: 69px;
+    height: 47px;
     position: relative;
-    margin: 5px 0 6px 100px;
+    margin: 0 0 0 130px;
     display: inline-block;
     
 }
 header ul{
     list-style: none;
     position: relative;
-    margin-left: 77%;
-    margin-top: -50px;
+    margin-left: 80%;
+    margin-top: -30px;
+    align-items: center;
+}
+header ul:hover .ItemCabecalho{
+    padding: 0 0 0 10px;
 }
 header ul li{
     display: inline-block;
+    padding: 0 5px 0 0;
+    transition: 0.3s;
+    color: #525dff;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
 }
-.ItemCabecalho:hover{
-    padding: 0 10px 0 0;
+body {
+    background: url(../img/Banner1.jpg);
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
 }
-.ItemCabecalho2:hover{
-    padding: 0px 0px 0px 10px;
+.Lista1 li{
+
+    display: inline-block;
+    padding: 0 5px 0 0;
+    color: white;
+    font-size:16px;
+
 }
+.Lista1 li a:visited{
+    color: white;
+    text-decoration: none;
+}
+
 /* 
 body{
     background: linear-gradient(white 75%,#8a8a8a); 
