@@ -12,6 +12,7 @@ header{
 }
 header ul{
     list-style: none;
+    width: 190px;
     position: relative;
     margin-left: 80%;
     margin-top: -30px;
@@ -28,17 +29,19 @@ header ul li{
     font-size:20px;
     font-family: 'Roboto', sans-serif;
 }
-body {
-    background: url(../img/Banner1.jpg);
-    background-position: 50% 5%;
+.part1 {
+    background-image: url(../img/Banner1.jpg);
+    background-position: 50% 0%;
     background-repeat: no-repeat;
-    background-size: 2060px;
+    height: 700px;
+    padding-top: 100px;
+    background-size: 2360px;
+    background-position-y: -50px;
 }
 .Banner{
 
     height: 570px;
-    width: 40%;
-    margin-top: 100px;
+    width: 30%;
     margin-left: 160px;
 }
 .Lista1 li{
@@ -46,7 +49,7 @@ body {
     display: inline-block;
     padding: 0 5px 0 0;
     color: white;
-    font-size:14px;
+    font-size:20px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 
@@ -59,7 +62,7 @@ body {
     text-decoration: none;
 }
 .Conta{
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .Conta h1{
     font-size: 700%;
@@ -93,15 +96,126 @@ body {
     border-radius: 0 10px 10px 0;
     color: #585b65;
 }
-.pt2{
-    width: 800px;
+.part2{
+    width: 1000px;
+    margin-left: 160px;
 }
-.pt2 h1{
+.part2 img{
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.part2 h1{
     color: #fa796d;
-    font-size: 50px;
+    font-size: 58px;
     font-family:sans-serif;
+    display: inline;
+    margin-right: 10px;
 }
-.pt2 p{
+.ContaCorrente{
+    text-decoration-color: #FFEC86;
+    background-color: #FFEC86;
+}
+.part2 p{
     color: #767a86;
+    font-size: 28px;
+}
+.linha1{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.part3{
+    margin-left: 160px;
+    margin-top: 120px;
+}
+.part3 h1{
+    color: #465eff;
+    font-size: 58px;
+    font-family:sans-serif;
+    margin-right: 10px;
+}
+.linha2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.part3 ul{
+    margin-top: 50px;
+}
+.part3 li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+}
+.MaoCelular{
+    text-align: center;
+    padding: 0px 21%;
+}
+.table{
+    padding: 0 34%;
+}
+.Cadeado{
+    padding: 0 30%;
+}
+.part3 h2{
+    font-size: 54px;
+    color: #465eff;
+    width: 400px;
+    text-align: center;
+}
+.part3 p{
+    color: #767a86;
+    font-size: 28px;
+    width: 400px;
+    text-align: center;
+}
+.part4{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 120px;
+    background-color: #7358c8;
+    border-radius: 20px;
+    height: 870px;
+    margin-bottom: 80px;
+}
+.Text1{
+    padding-top:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.part4 h1{
+
+    color: #fcfc30;
+    font-size: 58px;
+    font-family:sans-serif;
+    margin-right: 10px;
+    text-align: center;
+}
+.linha3{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.part4 ul{
+    text-align: center;
+}
+.part4 li{
+    display:inline-block ;
+    padding: 0 30px 0 0 ;
+    width: 270px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 80px;
+}
+.part4 h2{
+    color: #fcfc30;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part4 p{
+    margin-top: 50px;
+    color: white;
     font-size: 22px;
+    font-weight: bold;
+}
+.part5{
+    background-color: #F4F4F8;
 }
