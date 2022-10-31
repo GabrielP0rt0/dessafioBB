@@ -149,7 +149,7 @@ header ul li{
 .part3 li{
     display: inline-block;
     vertical-align: top;
-    margin-right: 100px;
+    margin-right: 140px;
 }
 .MaoCelular{
     text-align: center;
@@ -279,9 +279,45 @@ header ul li{
 }
 .RodaPe1{
     background-color:#465eff ;
-    text-align: center;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.RodaPe1 li{
+    display: inline-block;
+}
+.RodaPe1 h1{
+    color: #fcfc30;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: -275px;
+}
+.ButtonApp{
+    background-color: #fcfc30;
+    color: #465eff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 125px;
+    transition: 0.5s;
+}
+.ButtonApp:hover{
+    filter: brightness(90%);
+}
+.ButtonApp a{
+    color: #465eff;
+    text-decoration: none;
 }
 .RodaPe2{
     background-color:#fcfc30 ;
     text-align: center;
+    padding: 5px;
+    font-size: 10px;
 }
