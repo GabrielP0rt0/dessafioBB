@@ -1,18 +1,20 @@
 header{
     background-color: #fcfc30;
     height: 65px;
+    width: 100%;
     padding: 8px 0;
+    position: fixed;
 }  
 .LogoCabecalho{
     height: 58px;
     position: relative;
-    margin: 0 0 0 150px;
+    margin: 0 0 0 100px;
     display: inline-block;
     
 }
 header ul{
     list-style: none;
-    width: 190px;
+    width: 210px;
     position: relative;
     margin-left: 80%;
     margin-top: -30px;
@@ -39,20 +41,24 @@ header ul li{
     background-position-y: -50px;
 }
 .Banner{
-
     height: 570px;
     width: 30%;
-    margin-left: 160px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 .Lista1 li{
-
     display: inline-block;
-    padding: 0 5px 0 0;
+    padding: 0 10px 0 0;
     color: white;
-    font-size:20px;
+    font-size:16px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-
+}
+.campanhas:hover{
+    text-decoration: underline;
+}
+.contas:hover{
+    text-decoration: underline;
 }
 .IconeCasa{
     height: 16px;
@@ -62,17 +68,17 @@ header ul li{
     text-decoration: none;
 }
 .Conta{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 .Conta h1{
-    font-size: 700%;
+    font-size: 550%;
     color: #fcfc30;
     font-family: 'Oswald', sans-serif;
 }
 .Conta100Digital{
     color: white;
     font-family: Arial, Helvetica, sans-serifs;
-    font-size: 27px;
+    font-size: 20px;
     padding: 7% 0;
 }
 .QRCODE {
@@ -97,8 +103,8 @@ header ul li{
     color: #585b65;
 }
 .part2{
-    width: 1000px;
-    margin-left: 160px;
+    width: 800px;
+    margin-left: 100px;
 }
 .part2 img{
     margin-bottom: 40px;
@@ -106,7 +112,7 @@ header ul li{
 }
 .part2 h1{
     color: #fa796d;
-    font-size: 58px;
+    font-size: 48px;
     font-family:sans-serif;
     display: inline;
     margin-right: 10px;
@@ -117,19 +123,19 @@ header ul li{
 }
 .part2 p{
     color: #767a86;
-    font-size: 28px;
+    font-size: 22px;
 }
 .linha1{
     margin-top: -20px;
     margin-bottom: 20px;
 }
 .part3{
-    margin-left: 160px;
+    margin-left: 100px;
     margin-top: 120px;
 }
 .part3 h1{
     color: #465eff;
-    font-size: 58px;
+    font-size: 48px;
     font-family:sans-serif;
     margin-right: 10px;
 }
@@ -143,33 +149,33 @@ header ul li{
 .part3 li{
     display: inline-block;
     vertical-align: top;
-    margin-right: 190px;
+    margin-right: 100px;
 }
 .MaoCelular{
     text-align: center;
-    padding: 0px 21%;
+    padding: 0px 7%;
 }
 .table{
-    padding: 0 34%;
+    padding: 0 23%;
 }
 .Cadeado{
-    padding: 0 30%;
+    padding: 0 20%;
 }
 .part3 h2{
-    font-size: 54px;
+    font-size: 40px;
     color: #465eff;
-    width: 400px;
+    width: 270px;
     text-align: center;
 }
 .part3 p{
     color: #767a86;
-    font-size: 28px;
-    width: 400px;
+    font-size: 20px;
+    width: 270px;
     text-align: center;
 }
 .part4{
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 120px;
     background-color: #7358c8;
     border-radius: 20px;
@@ -184,7 +190,7 @@ header ul li{
 .part4 h1{
 
     color: #fcfc30;
-    font-size: 58px;
+    font-size: 48px;
     font-family:sans-serif;
     margin-right: 10px;
     text-align: center;
@@ -196,72 +202,86 @@ header ul li{
 .part4 ul{
     text-align: center;
     padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .part4 li{
     display:inline-block ;
     padding: 0px 30px 0px 0 ;
-    width: 300px;
+    width: 200px;
     text-align: center;
     vertical-align: top;
     margin-top: 80px;
 }
 .part4 h2{
     color: #fcfc30;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 .part4 p{
     margin-top: 50px;
     color: white;
-    font-size: 26px;
+    font-size: 16px;
     font-weight: bold;
 }
 .part5{
     background-color: #F4F4F8;
-    padding: 50px 150px;
-    height: 860px;
+    padding: 50px 100px;
+    height: 540px;
 }
 .ImagemMulher{
     background-image: url(../img/Mulher\ olhando\ o\ celular.jpg);
     background-repeat: no-repeat;
-    height: 860px;
-    width: 940px;
-    background-size: 950px;
+    height: 540px;
+    width: 600px;
+    background-size: 600px;
     border-radius: 50px 50px 50px 50px;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
 }
 .part5 ul{
     background-color: white;
-    height: 360px;
-    width: 900px;
-    position: relative;
-    margin-top: -790px;
-    margin-left: 600px;
-    border-radius: 30px;
+    height: 250px;
+    width: 675px;
+    margin-top: -490px;
+    margin-left: 370px;
+    border-radius: 10px;
     padding: 70px 40px;
+}
+.part5 li{
+    margin-bottom: 40px;
 }
 .part5 h1{
     color: #465eff;
-    font-size: 50px;
+    font-size: 38px;
     font-family:sans-serif;
     margin-right: 10px;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 .part5 h2{
-    padding-right: 250px;
-    font-size: 26px;
+    padding-right: 200px;
+    font-size: 20px;
     display: inline;
     font-weight: bold;
-    background-color: #fa796d;
 }
-.part5 p{
-    text-align: right;
-    display: inline;
+.part6{
+    width: 60%;
+    padding-top: 70px;
+    padding-left: 20%;
+    padding-bottom: 70px;
+    color: #585b65;
     font-family: Arial, Helvetica, sans-serif;
-    transform: rotate(45degree);
-    background-color: #465eff;
-    position: absolute;
-    margin-right: -1000px;
+    font-size: 14px;
+}
+.part6 li{
+    margin-bottom: 10px;
+}
+.RodaPe1{
+    background-color:#465eff ;
+    text-align: center;
+}
+.RodaPe2{
+    background-color:#fcfc30 ;
+    text-align: center;
 }
